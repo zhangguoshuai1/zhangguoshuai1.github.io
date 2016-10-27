@@ -1,0 +1,312 @@
+body,ul,li,ol,dl,dt,dd,h1,h2,h3,h4,h5,h6,p{margin: 0;padding: 0;list-style: none;font-family:"微软雅黑";}
+a{text-decoration: none;}
+@font-face{
+	font-family:"dibuziti";
+	src:url("../fonts/myriad-set-pro_thin.woff")
+	format("woff");
+
+}
+@font-face{
+	font-family:"cedaoziti";
+	src:url("../fonts/myriad-set-pro_extrathin.woff")
+	format("woff");
+
+}
+/*第一屏*/
+.first{
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/contactbg.jpg");
+	background-size: cover;
+	overflow: hidden;
+	margin: auto;
+	/*padding-top: 150px;*/
+}
+.first1{
+	position: relative;
+	z-index: 5;
+}
+.first2{
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/6.jpeg");
+	background-size: cover;
+	overflow: hidden;
+	margin: auto;
+	position: absolute;
+	top:0;
+}
+.first3{
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/di4.jpg");
+	background-size: cover;
+	overflow: hidden;
+	margin: auto;
+	position: absolute;
+	top:0;
+}
+nav{
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	top:0; z-index: 999;
+	background-color: rgba(43,43,43,0.5);
+
+}
+.daohang{
+	width: 83%;
+	height: 100%;
+	margin: auto;
+	text-align: justify;
+}
+.daohang div{
+	width: 120px;
+	height: 100%;
+	display: inline-block;
+	text-align: center;
+	font-size: 20px;
+	line-height: 50px;
+}
+
+.daohang::after{
+	 content: "";
+	 width: 100%;
+	 height:0;
+	 line-height: 0;
+	 display: inline-block;
+	 overflow: hidden;
+ }
+.daohang div a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-family: "dibuziti";
+	transition: opacity .8s linear;
+}
+.daohang div a:hover{
+	opacity: 0.3;
+
+}
+.wenzi{
+	width: 400px;
+	height: 100px;
+	font-size: 24px;
+	color: #fff;
+	margin: auto;
+	margin-top: 20%;
+	line-height: 50px;
+}
+.wenzi span{
+	margin: auto;
+}
+.fjs{
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	color: #fff;
+	font-size: 22px;
+	line-height: 50px;
+
+}
+/*第二屏*/
+.two{
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/di3.jpeg");
+	background-size: cover;
+	overflow: hidden;
+}
+.biaoti{
+	width: 200px;
+	height: 70px;
+	font-size: 24px;
+	margin-left: 1%;
+	margin-top: 50px;
+	text-align: center;
+	line-height: 30px;
+	color: #ffdc60;
+
+}
+.bj{
+	width: 100%;
+	height: 500px;
+	margin: auto;
+	margin-top: 20px;
+}
+.zp{
+	width: 250px;
+	height: 190px;
+	margin-left: 18px;
+	margin-top: 18px;
+	float: left;background: #FFFFFF;
+	border: 10px solid white;
+	position: relative;
+}
+.zp img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.mask{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;left: 0;
+	text-align: center;
+	font-size: 22px;
+	line-height: 190px;
+	background: #000;
+	opacity: 0.7;
+	color: #fff;
+	display: none;
+}
+/*第三屏*/
+.three{
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/di2.jpg");
+	background-size: cover;
+	overflow: hidden;
+
+}
+
+.bj2{
+	width: 80%;
+	height: 550px;
+	margin: auto;
+	margin-top: 50px;
+}
+.zp2{
+	width: 290px;
+	height: 460px;
+	background: #fff;
+	margin-left: 0;
+	float: left;
+	opacity: 0.8;
+	transition: margin-left 0.7s ease;
+}
+.tx{
+	width: 130px;
+	height: 130px;
+	margin:15px auto;
+	border-radius: 50%;
+	border: 3px solid #000;
+	overflow: hidden;
+}
+.tx img{
+	width: 130px;
+	height: 130px;
+}
+.js{
+	width: 50%;
+	height: 200px;
+	margin: auto;
+	margin-top: 50px;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.68);
+}
+.aa{
+	margin-top: 10px;
+}
+.four{
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/di6.jpeg");
+	background-size: cover;
+	overflow: hidden;
+}
+
+.snow-container {
+	position: fixed;
+	top: 0; left: 0;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+	z-index: 100001;
+}
+.five{
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/di7.jpg");
+	background-size: cover;
+	overflow: hidden;
+}
+
+.app{
+	width: 82%;
+	height: 500px;
+	margin: auto;
+	margin-top: 130px;
+    position: relative;
+}
+.erwei{
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    top:320px;left:85%;right: 0;bottom: 0;
+    margin: auto;z-index: 99;
+
+}
+.mus{
+   text-align: center;font-size: 14px;margin-top:30px;color: #fff;opacity: 0;
+}
+.ewm{
+	width: 100px;
+	height: 100px;
+    float: left;
+
+}
+
+.ewm img{
+    width: 100%;
+    height: 100%;
+}
+.sj{
+	width: 170px;
+	height: 345px;
+
+	position: absolute;
+}
+.sj1{
+	left: 30%;
+}
+.sj2{
+	left: 35%;
+}
+.sj3{
+	left: 40%;
+}
+.sj4{
+	left: 45%;
+}
+.sj5{
+	left: 50%;
+}
+.sj6{
+	left: 55%;
+}
+.sj img{
+	width: 100%;
+	height: 100%;
+
+}
+.nav2{
+	width: 140px;
+	height: 235px;
+	position: absolute;
+	overflow: hidden;
+	left: 15px;top: 50px;
+	background: red;
+}
+@keyframes a1 {
+    0%{
+
+    }
+}
+
+
